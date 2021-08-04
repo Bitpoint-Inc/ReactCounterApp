@@ -6,7 +6,6 @@ import style from '../static/css/HomePage.module.css'
 function HomePage() {
 
     const [counter, setCounter] = useState(0);
-    const newCounter = counter;
     function increment() {
         setCounter(counter+1);
     }
